@@ -15,6 +15,13 @@
 #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 name: "💻 Workstations"
+
+labels: 
+    - name: "C-Suite"
+      description: Hosts belonging to C-Suite
+      label_membership_type: manual
+      hosts:
+
 controls:
   setup_experience:
     ###########################################################
