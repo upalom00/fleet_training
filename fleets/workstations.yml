@@ -76,9 +76,9 @@ controls:
     configuration_profiles:
       - paths: ../platforms/macos/declaration-profiles/*.json
       - paths: ../platforms/macos/configuration-profiles/*.mobileconfig
-      - paths: ../platforms/macos/configuration-profiles/disable-bluetooth-file-sharing.mobileconfig
-        labels_include_all:
-          - Department: Engineering
+  #    - paths: ../platforms/macos/configuration-profiles/disable-bluetooth-file-sharing.mobileconfig
+  #      labels_include_all:
+  #        - Department: Engineering
 
   windows_settings:
     configuration_profiles:
